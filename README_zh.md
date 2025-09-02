@@ -61,7 +61,7 @@
 # 🚀 使用方法
 
 1.  在IDE中配置MCP JSON文件:
-    ```json
+    ```bash
     {
   "mcpServers": {
     "Semantic Context MCP Server": {
