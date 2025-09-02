@@ -61,12 +61,15 @@
 # 🚀 使用方法
 
 1.  在IDE中配置MCP JSON文件:
-    ```bash
+```json
     {
   "mcpServers": {
     "Semantic Context MCP Server": {
       "command": "fastmcp",
-      "args": ["run", "your_code_base/semantic-context-mcp/vector_search/fast_mcp_server.py:mcp"],
+      "args": [
+        "run",
+        "your_code_base/semantic-context-mcp/vector_search/fast_mcp_server.py:mcp"
+      ],
       "env": {
         "OPENAI_API_KEY": "your_api_key",
         "OPENAI_BASE_URL": "your_api_base_url",
@@ -75,6 +78,6 @@
     }
   }
 }
-    ```
+```
 
-    开始使用吧！👏
+开始使用吧！👏
